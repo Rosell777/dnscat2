@@ -8,6 +8,7 @@
 # Implements basically the full Dnscat2 protocol. Doesn't care about
 # lower-level protocols.
 ##
+# modify test
 
 $LOAD_PATH << File.dirname(__FILE__) # A hack to make this work on 1.8/1.9
 trap "SIGINT" do
